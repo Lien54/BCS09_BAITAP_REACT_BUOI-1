@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: black;
+}
+.navbar a {
+  font-weight: bold;
+  font-size: 25px;
+}
+.navbar .nav-item a {
+  font-size: 16px;
+  color: white;
+}
+.navbar .nav-item a.active {
+  color: white;
+}
+.navbar .nav-item .nav-link:hover {
+  color: yellow;
+}
+
+.banner {
+  margin: 50px 70px;
+  padding: 75px;
+  background-color: #F8F9FA;
+  text-align: center;
+  border-radius: 8px;
+}
+.banner h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+.banner p {
+  padding: 10px 0;
+  font-size: 28px;
+}
+.banner button {
+  background-color: yellow;
+  color: gray;
+  border: 1px dashed black;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 15px;
+  transition: all 0.5s;
+}
+.banner button:hover {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  margin: 50px 70px;
+  border-radius: 8px;
+}
+.content .row {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
